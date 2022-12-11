@@ -41,7 +41,7 @@ body {
   
   .main-nav a {
     color: white;
-    font-size: .99em;
+    font-size: 20px;
   }
   
   .main-nav a:hover {
@@ -62,8 +62,8 @@ body {
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
-  
-  
+
+ 
   /* ================================= 
     Media Queries
   ==================================== */
