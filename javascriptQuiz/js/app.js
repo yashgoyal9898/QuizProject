@@ -138,7 +138,11 @@ const quizEnd = () => {
     document.getElementsByClassName("container")[0].innerHTML = `
         <div class="col">
             <h3 class="w-100"> Hii, you've scored ${correct} / ${total} </h3>
+            <br/>
+            <a href="../Home.html" class="btn btn-primary"
+                >Click to Start Quiz</a
         </div>
     `
+
 }
 loadQuestion(index);
