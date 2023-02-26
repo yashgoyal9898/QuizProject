@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(24, 128, 207);
+    background-color: white;
 }
 
 .container {
@@ -33,7 +33,7 @@
 
 #submit {
     width: 100%;
-    background-color: rgb(47, 8, 73);
+    background-color: rgb(0, 0, 0);
     transition: 0.5s;
     color: white;
     outline: none;
@@ -42,10 +42,11 @@
     display: block;
     padding: 10px;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 #submit:hover {
-    background-color: rgb(34, 6, 53);
+    background-color: red;
 }
 
 .box {

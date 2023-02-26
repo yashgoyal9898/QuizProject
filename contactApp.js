@@ -27,7 +27,9 @@ var firebaseConfig = {
     console.log(name, email, message);
   
     saveContactInfo(name, email, message);
-  
+
+    alert("Form is submitted");
+    window.location="Home.html";
     document.querySelector(".contact-form").reset();
   }
   
