@@ -6,7 +6,6 @@ body {
   html {
     box-sizing: border-box;
   }
-  
   .row {
     display: flex;
     align-items: center;
@@ -22,8 +21,9 @@ body {
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: #4663a1;
     color: white;
+    font-size: 20px;
   }
   
   .container {
